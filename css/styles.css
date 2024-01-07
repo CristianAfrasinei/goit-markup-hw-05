@@ -780,11 +780,11 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     
-    .portf-link:hover .app-storage {
+    .port-link:hover .app-storage {
     
         transform: translateY(0);
     }
-    .portf-link:focus .app-storage {
+    .port-link:focus .app-storage {
         
         transform: translateY(0);
     }
@@ -795,7 +795,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         overflow: clip;
     }
     
-    .portf-link {
+    .port-link {
     
         transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
