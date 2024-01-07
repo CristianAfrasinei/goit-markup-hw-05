@@ -46,7 +46,6 @@
     border-radius: 4px;
     cursor: pointer;
     margin: 0 auto;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .top-head {
@@ -77,7 +76,6 @@ img {
     --logo-color: #f4f4f4fd;
     --button-color: #4D5AE5;
     --main-button: #E7E9FC;
-    --link-color: #8e8f99;
 }
 
 .container {
@@ -148,7 +146,6 @@ ul {
 
 .contacts{
     font-style: normal;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts{
@@ -566,7 +563,8 @@ display: flex;
 align-items: center;
 justify-content: center;
 color: #8e8f99;
-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .link-customer:hover {
     border-color: #404bbf;
@@ -618,7 +616,7 @@ border-radius: 50%;
 display: flex;
 align-items: center;
 justify-content: center;
-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .lastdivlink:hover {
@@ -697,4 +695,3 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         border: none;
         fill: #ffffff;
     }
-    
