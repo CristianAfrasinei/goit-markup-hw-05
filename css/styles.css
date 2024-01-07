@@ -11,6 +11,14 @@
     align-items: center;
     gap: 40px;
 }
+.cls-link {
+        color:#2e2f42;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5em;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .topdiv {
     display: flex;
@@ -491,6 +499,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     align-items: center;
     justify-content: center;
     gap: 24px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .inst {
@@ -544,6 +553,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 color: #8e8f99;
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-customer:hover {
@@ -596,6 +606,7 @@ border-radius: 50%;
 display: flex;
 align-items: center;
 justify-content: center;
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .lastdivlink:hover {
